@@ -1,6 +1,7 @@
 # mxt-xdt-transformer
 Command Line XDT Transformer
 
+```
 Usage: mxdtrn [options]
 
 
@@ -11,3 +12,4 @@ Options:
   -t, --transform <value>    The transform XML file
   -d, --destination <value>  The destination XML file
   -h, --help                 output usage information
+```
