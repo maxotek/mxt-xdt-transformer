@@ -1,0 +1,38 @@
+{
+  "name": "mxt-xdt-transformer",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Applies XDT transformation on XML Files",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxotek/mxt-xdt-transformer.git"
+  },
+  "license": "ISC",
+  "scripts": {
+    "prepublish": "gulp"
+  },
+  "bin": {
+    "mxdtrn": "./bin/mxdtrn.js"
+  },
+  "main": "./src/xdt-transformer.js",
+  "keywords": [
+    "XDT",
+    "Transform",
+    "XML"
+  ],
+  "author": "partho",
+  "bugs": {
+    "url": "https://github.com/maxotek/mxt-xdt-transformer/issues"
+  },
+  "homepage": "https://github.com/maxotek/mxt-xdt-transformer#readme",
+  "devdependencies": {
+    "eslint": "^4.19.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.2"
+  },
+  "dependencies": {
+    "commander": "2.14.1",
+    "mx-color-logger": "1.0.3",
+    "xdt-transform": "1.0.4"
+  }
+}
